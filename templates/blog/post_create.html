@@ -1,0 +1,15 @@
+{% extends "base/base.html" %}
+{% block title %}{{object.title}}{% endblock %}
+{% block content %}
+
+<h1>{{title}} post</h1>
+<p>
+    Add post below
+</p>
+<form action=" " method="POST">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit" value="{{title}}">
+
+</form>
+{% endblock %}
