@@ -73,7 +73,7 @@ Orginalny szablon: https://startbootstrap.com/theme/clean-blog
   
 # Django Basic Tutorial [ENG]
 
-Hi, in this tutorial I show you how to write your first blog application based on the ** Django ** framework and how to combine it with any HTML template.
+Hi, in this tutorial I show you how to write your first blog application based on the **Django** framework and how to combine it with any HTML template.
 After watching this series, you will gain the ability to write a beautiful looking and fully functional blog application.
 
 Original template: https://startbootstrap.com/theme/clean-blog
@@ -91,23 +91,24 @@ git clone https://github.com/sylwesterwalczak/Django-Basic-Tutorial-01.git
 cd ./Django-Basic-Tutorial-01-main
 ``
 3. Create a virtual environment:
-> ** env ** is the name of the environment / file
-``
-virtualenv env
-``
-or
-``
-python -m virtualenv env
-``
+	> **env** is the name of the environment / file
+ 
+	``
+	virtualenv env
+	``
+	or
+	``
+	python -m virtualenv env
+	``
 4. Activate the environment:
-> Mac OS and Linux:
-``
-source env/bin/activate
-``
-> Windows:
-``
-env/Scripts/activate
-``
+	> Mac OS and Linux:
+	``
+	source env/bin/activate
+	``
+	> Windows:
+	``
+	env/Scripts/activate
+	``
 5. Go to the / techblog folder:
 ``
 (env): cd techblog
