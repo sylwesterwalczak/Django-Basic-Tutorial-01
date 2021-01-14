@@ -83,56 +83,56 @@ Original template: https://startbootstrap.com/theme/clean-blog
 
 
 1. Download the application:
-``
-git clone https://github.com/sylwesterwalczak/Django-Basic-Tutorial-01.git
-``
+	```
+	git clone https://github.com/sylwesterwalczak/Django-Basic-Tutorial-01.git
+	```
 2. Select the application folder:
-``
-cd ./Django-Basic-Tutorial-01-main
-``
+	```
+	cd ./Django-Basic-Tutorial-01-main
+	```
 3. Create a virtual environment:
 	> **env** is the name of the environment / file
  
-	``
+	```
 	virtualenv env
-	``
+	```
 	or
-	``
+	```
 	python -m virtualenv env
-	``
+	```
 4. Activate the environment:
 	> Mac OS and Linux:
-	``
+	```
 	source env/bin/activate
-	``
+	```
 	> Windows:
-	``
+	```
 	env/Scripts/activate
-	``
+	```
 5. Go to the / techblog folder:
-``
+```
 (env): cd techblog
-``
+```
 6. Perform your first migration:
-``
+```
 (env): python manage.py migrate
-``
+```
 7. Create an administrator:
-``
+```
 (env): python manage.py createsuperuser
-``
+```
 8. Launch the applications:
-``
+```
 (env): python manage.py runserver
-``
+```
 8. Command to create new migrations:
-``
+```
 (env): python manage.py makemigrations
-``
+```
 9. Deactivation of the environment after the end of work:
-``
+```
 (env): deactivate
-``
+```
 
 
 ### Functions
